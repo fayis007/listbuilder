@@ -18,7 +18,7 @@ class _CoderState extends State<Coder> {
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
-        color: Colors.blue,
+        color: Colors.green,
         padding: EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -27,10 +27,14 @@ class _CoderState extends State<Coder> {
             Text("Login"),
             SizedBox(
               height: 20,
+
             ),
+
             Container(
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                color: Colors.white,
+
+                  borderRadius: BorderRadius.all(Radius.circular(30)),
                   border: Border.all(color: Colors.amber)),
               child: Center(
                 child: TextField(
@@ -43,7 +47,8 @@ class _CoderState extends State<Coder> {
             ),
             Container(
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                color: Colors.white,
+                  borderRadius: BorderRadius.all(Radius.circular(30)),
                   border: Border.all(color: Colors.amber)),
               child: Center(
                 child: TextField(

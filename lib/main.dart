@@ -1,4 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:zivitarekenmechine/samble.dart';
+import 'package:zivitarekenmechine/samble2.dart';
+import 'package:zivitarekenmechine/samble4.dart';
+import 'package:zivitarekenmechine/samble5.dart';
+import 'package:zivitarekenmechine/samble6.dart';
+import 'package:zivitarekenmechine/sample.dart';
+import 'package:zivitarekenmechine/smable3.dart';
 
 import 'Coder.dart';
 
@@ -25,7 +32,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Coder(),
+      home:tree(),
     );
   }
 }
